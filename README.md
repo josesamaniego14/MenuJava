@@ -25,4 +25,8 @@ Requisitos:
 
 ![image](https://github.com/josesamaniego14/MenuJava/assets/169215284/347465e9-d4c5-4895-96cb-7ca0639f2ee5)
 
+Este código es una aplicación de JavaFX que crea una interfaz gráfica con una barra de menú y un área central para mostrar mensajes. En el método start, se utiliza un BorderPane como contenedor principal, colocando un Label en el centro para mostrar mensajes. Se crea una barra de menú (MenuBar) con tres menús: "Archivo", "Editar" y "Ayuda".
 
+El menú "Archivo" contiene opciones para crear, abrir, guardar archivos, y salir de la aplicación, cada una con un evento asociado que actualiza el Label con un mensaje correspondiente. El menú "Editar" tiene opciones para copiar y pegar, también con eventos que actualizan el Label. El menú "Ayuda" tiene una opción "Acerca de" que muestra un cuadro de diálogo de información y actualiza el Label.
+
+Finalmente, la barra de menú se añade a la parte superior del BorderPane, se crea una escena con el BorderPane, se aplica una hoja de estilos CSS, y se muestra la ventana principal titulada "Tarea Menú". El método updateMessage se utiliza para actualizar el texto del Label central con mensajes específicos según las acciones del usuario.
